@@ -10,6 +10,8 @@ paths:
     get:
       tags:
       - part-controller
+      description: Returns all existing parts.
+      summary: Find all parts.
       operationId: getAllParts
       responses:
         "200":
